@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 class AnimalController extends Controller
 {
     public $animals = [
-        ["name" => "panda"],
-        ["name" => "nyamuk"],
-        ["name" => "ayam"]
+        ["name" => "kucing"],
+        ["name" => "ayam"],
+        ["name" => "ikan"]
     ];
 
     # method index - menampilkan data animals
