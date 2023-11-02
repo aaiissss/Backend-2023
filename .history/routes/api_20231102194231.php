@@ -35,4 +35,4 @@ Route::get('/students', [StudentController::class, 'index']);
 Route::post('/students', [StudentController::class, 'store']);
 
 #Method delete
-Route::delete('/students/{id}', [studentController::class, 'destroy']);
+Route::delete('/animals/{id}', [AnimalController::class, 'destroy']);
